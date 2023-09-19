@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choosing Helper</title>
+    <link rel="icon" href="fav/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://merk.team/">
+<meta name="twitter:title" content="Choosing Helper">
+<meta name="twitter:description" content="Make choosing easier by facing off your options.">
+<meta name="twitter:image" content="/og-image.png">
+<script src="confettiSVG.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="input-area" class="input-area">
+    <p>Drag and drop files or click to start typing</p>
+</div>
+<button id="start-button" style="display: none;">Start</button>
+
+<div id="items-list" class="items-list" style="display: none;"></div>
+
+<div id="preview-area" class="preview-area" style="display: none">
+    <p id="file-count" style="display: none"></p>
+    <img id="first-file-preview" src="" alt="Preview" class="file-preview" style="display: none">
+    <img id="second-file-preview" src="" alt="Preview" class="file-preview" style="display: none">
+    
+</div>
+
+<div id="tournament-area" style="display: none;">
+    <div id="tournament-item1" class="tournament-item">
+    <div id="text-content" class="text-content"> </div>
+    </div>
+    <div id="tournament-item2" class="tournament-item"></div>
+    
+</div>
+<div id="h" style="display: none;"> <h1>Winner</h1> </div>
+<div id="winner-area" style="display: none;">
+
+    <div id="winner-item"></div>
+    <div id="confettiverlay" class="confettiverlay"></div>
+</div>
+
+<script src="script.js"></script>
+<script defer="defer" src="confetti.js"></script>
+
+
+</body>
+</html>
